@@ -16,7 +16,7 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     #nome do que será usado(id) e o column, é uma coluna de banco de dados, será do tipo, coluna. db."se for inteiro ou string, segue abaixo"
     #e unique significa "unico", por exemplo aq em baixo, é unico o username
-    username = db.Column(db.String, Unique=true)
+    username = db.Column(db.String, Unique=True)
     password = db.Column(db.String)
     name = db.Column(db.String)
     email = db.Column(db.String, Unique=True)
@@ -67,9 +67,9 @@ class Follow(db.Model):
     #mesma forma dos anteriores
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    follower_id = db.Column(db.Integer, db.ForeignKey('Users.id'))
+    follower_id = db.Column(db.Integer, db.ForeignKey('users.id'))
 
     user = db.relationship('User', foreign_keys=user_id)
-    followr =db.relationship('User', foreign_keys=followr_id)
+    follower =db.relationship('User', foreign_keys=follower_id)
 
 
