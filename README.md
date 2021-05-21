@@ -1,6 +1,6 @@
 # Flask1
 
-#Curso-Flask
+##Curso-Flask
 
 Este projeto esta focado em criar um sistema parecido com o twitter, de forma mais basica(e humilde), com followers, user name, login, senha, etc. 
 
@@ -32,13 +32,14 @@ para adentra-lo. Feito isso, você esta no ambiente virtual.
 baixe o arquivo "requeriments.txt" e o salve no repositorio do projeto
 
 dentro do seu virutalenv utilize.
+
 '''bash
 "venv/bin/pip3 install -r requeriments.txt
 '''
 
 feito isso, vai instalar todas as bibliotecas necessarias para começar o projeto
 
-#Mão na massa
+##Mão na massa
 
 
 
