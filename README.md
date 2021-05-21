@@ -26,7 +26,7 @@ para criar o o ambiente.
 E logo em seguida 
 
 ```bash
-venv/bin/activate
+. venv/bin/activate
 ```
 para adentra-lo. Feito isso, você esta no ambiente virtual.
 
@@ -34,10 +34,9 @@ baixe o arquivo "requeriments.txt" e o salve no repositorio do projeto
 
 dentro do seu virutalenv utilize.
 
-``bash
+```bash
 "venv/bin/pip3 install -r requeriments.txt
 ```
-
 feito isso, vai instalar todas as bibliotecas necessarias para começar o projeto
 
-##Mão_Na_Massa
+## Mão Na Massa
