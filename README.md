@@ -1,11 +1,11 @@
 # Flask1
 
-##Curso-Flask
+##Curso_Flask
 
 Este projeto esta focado em criar um sistema parecido com o twitter, de forma mais basica(e humilde), com followers, user name, login, senha, etc. 
 
 
-#Instalação
+##Instalação
 
 Crie um repositorio propriamente para este projeto, e de inicio crie uma [virtualenv](https://pypi.org/project/virtualenv/) (ambiente virtual).
 
@@ -39,7 +39,7 @@ dentro do seu virutalenv utilize.
 
 feito isso, vai instalar todas as bibliotecas necessarias para começar o projeto
 
-##Mão na massa
+##Mão_Na_Massa
 
 
 
