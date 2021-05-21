@@ -7,7 +7,7 @@ Este projeto esta focado em criar um sistema parecido com o twitter, de forma ma
 
 ## Instalação
 
-Crie um repositorio propriamente para este projeto, e de inicio crie uma [virtualenv](https://pypi.org/project/virtualenv/) (ambiente virtual).
+Crie um repositorio propriamente para este projeto, e de inicio instale o [virtualenv](https://pypi.org/project/virtualenv/) (ambiente virtual).
 
 Usando o gerenciado do [pip](https://pip.pypa.io/en/stable/) 
 
@@ -23,7 +23,7 @@ virtualenv -p python3 venv
 
 para criar o o ambiente.
 
-E logo em seguida 
+E logo em seguida
 
 ```bash
 . venv/bin/activate
